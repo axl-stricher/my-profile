@@ -1,0 +1,125 @@
+/*Colors and fonts*/
+
+body{
+	background: #E2F1E7;
+	color: #387478;
+	font-size: 17px;
+  	font-family: "Comic Sans MS";
+	font-weight: 400;
+	font-style: normal;
+	#profile
+}
+
+h1,h2,h3{
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1{
+	color: #243642;
+	font-size: 32px;
+}
+
+h2{
+	color:#629584;
+	font-size: 24px;
+}
+
+a{
+	text-decoration: none;
+	color: #859F3D;
+	font-weight: 400;
+}
+a:hover{
+	color: #243642;
+}
+
+/*custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px){
+	.container{
+		width: 500px;
+		
+	}
+}
+
+@media (max-width: 540px){
+	.container{
+		width: 400px;
+
+	}
+}
+
+.card-white{
+	background-color: #F6FCDF;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+	box-shadow: 0px 5px 10px;
+}
+.btn-blue{
+	background-color: #859F3D;
+	color: whitesmoke;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover{
+	background-color: #31511E;
+	color: whitesmoke;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #859F3D;
+
+}
+.list-inline i:hover {
+	color: #31511E;
+}
+#introduction p {
+	margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
